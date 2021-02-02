@@ -5,7 +5,7 @@
 
 #include "icinga/service.hpp"
 #include "livestatus/historytable.hpp"
-#include <boost/thread/mutex.hpp>
+#include <mutex>
 
 using namespace icinga;
 

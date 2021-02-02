@@ -4,7 +4,7 @@
 #define LOGTABLE_H
 
 #include "livestatus/historytable.hpp"
-#include <boost/thread/mutex.hpp>
+#include <mutex>
 
 using namespace icinga;
 
